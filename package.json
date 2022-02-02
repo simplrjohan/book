@@ -1,6 +1,6 @@
 {
   "name": "simplr-storybook-test",
-  "version": "0.4.0",
+  "version": "0.1.0",
   "dependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.17.0",
