@@ -1,8 +1,9 @@
 {
-  "name": "my-design-system",
+  "name": "@simplr/storybook-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.7",
     "@storybook/addon-centered": "^5.3.21",
     "@storybook/addon-info": "^5.3.21",
@@ -10,8 +11,10 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "auto": "^9.40.1",
     "babel-loader": "^8.2.3",
     "babel-preset-react-app": "^10.0.1",
+    "cross-env": "^7.0.3",
     "react": "^17.0.2",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^17.0.2",
@@ -22,11 +25,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=77d8d7844c5a"
   },
   "eslintConfig": {
     "extends": [
@@ -67,5 +71,27 @@
     "@types/styled-components": "^5.1.21",
     "chromatic": "^6.4.3",
     "webpack": "^5.65.0"
-  }
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplrjohan/storybook.git"
+  },
+  "author": "johangace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplrjohan/storybook/issues"
+  },
+  "homepage": "https://github.com/simplrjohan/storybook#readme"
 }
