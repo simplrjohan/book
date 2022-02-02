@@ -1,6 +1,6 @@
 {
-  "name": "simplr-storybook-designs",
-  "version": "1.0.0",
+  "name": "johan-storybook-test",
+  "version": "0.1.0",
   "dependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.12",
@@ -90,5 +90,9 @@
     "url": "https://github.com/simplrjohan/storybook/issues"
   },
   "homepage": "https://github.com/simplrjohan/storybook#readme",
-  "private": false
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
 }
