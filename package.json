@@ -1,5 +1,5 @@
 {
-  "name": "@simplr/storybook-design-systems",
+  "name": "simplr-storybook-design",
   "version": "0.1.0",
   "dependencies": {
     "@babel/cli": "^7.16.8",
@@ -10,7 +10,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "auto": "^9.40.1",
+    "auto": "^10.32.6",
     "babel-loader": "^8.2.3",
     "babel-preset-react-app": "^10.0.1",
     "cross-env": "^7.0.3",
@@ -83,14 +83,12 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simplrjohan/storybook.git"
-  },
+  "repository": "git+https://github.com/simplrjohan/storybook.git",
   "author": "johangace",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/simplrjohan/storybook/issues"
   },
-  "homepage": "https://github.com/simplrjohan/storybook#readme"
+  "homepage": "https://github.com/simplrjohan/storybook#readme",
+  "private": false
 }
