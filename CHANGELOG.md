@@ -1,3 +1,16 @@
+# v0.1.1 (Wed Feb 02 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Created first version of the Outline addon: 1.0.0 (johan@simplr.ai)
+- add (johan@simplr.ai)
+
+#### Authors: 1
+
+- simplrjohan (johan@simplr.ai)
+
+---
+
 # v0.2.2 (Wed Feb 02 2022)
 
 #### ⚠️ Pushed to `master`
