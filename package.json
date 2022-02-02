@@ -1,7 +1,6 @@
 {
-  "name": "@simplr/storybook-design-system",
-  "version": "0.1.0",
-  "private": false,
+  "name": "@simplr/storybook-design-systems",
+  "version": "0.2.0",
   "dependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.7",
